@@ -45,7 +45,7 @@ You can also run via npm scripts.
 
 * [DotEnv](https://www.npmjs.com/package/dotenv)
 
-Rather than include a `keys.js` file, I used the [dotenv](https://www.npmjs.com/package/dotenv) package to create environment variables. The `.env` file is the first file required in `./liri.js`, which stores environment-specific variables in the form of `NAME=VALUE`.
+The `.env` file is the first file required in `./liri.js`, which stores environment-specific variables in the form of `NAME=VALUE`.
 
 Replace XXXXX with the key/secret/token for each service.
 
