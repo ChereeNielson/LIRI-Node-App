@@ -26,7 +26,7 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 :-----:|:-----:|:-----:|:-----:|:-----:
 spotify|"song title"|-|node liri "Madness"|Display song information from Spotify. The default song is "Madness" if no value is entered via the command line.
 artist|"band name"|-|node liri "Muse"|Display band information from Bands In Town. The default artist is "Muse" if no value is entered via the command line.
-movie|"movie title"|--say|node liri "Blade Runner 2049" --say|Display movie information from OMDB.
+movie|"movie title"|-|node liri "Blade Runner 2049"|Display movie information from OMDB.
 do-what-it-says|-|-|node liri do-what-it-says|Run whatever command and value are saved to the random.txt stored in the commands directory.
 
 You can also run via npm scripts.
@@ -74,8 +74,6 @@ This project was uploaded to NPM under the package name `liri-cli`. Though I hop
 
 Install: `npm i liri-cli`
 
-_`--say` currently does not work when run via npm script._
-
 ### Resources 
 
 [Node docs: child_process.spawn](https://nodejs.org/api/child_process.html#child_process_child_process_spawn_command_args_options)
@@ -87,5 +85,3 @@ _`--say` currently does not work when run via npm script._
 [Carbon: Source code images](https://carbon.now.sh/)
 
 [Cheree Nielson: GitHub](https://github.com/ChereeNielson/LIRI-Node-App)
-
-[codeburst.io: Array.find & Array.findIndex](https://codeburst.io/learn-javascript-es6-array-find-array-findindex-7fe4f63c6974)
