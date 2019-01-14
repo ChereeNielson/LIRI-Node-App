@@ -27,13 +27,11 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 spotify|"song title"|-|node liri "Madness"|Display song information from Spotify. The default song is "Madness" if no value is entered via the command line.
 artist|"band name"|-|node liri "Muse"|Display band information from Bands In Town. The default artist is "Muse" if no value is entered via the command line.
 movie|"movie title"|-|node liri "Fight Club"|Display movie information from OMDB.
-do-what-it-says|-|-|node liri do-what-it-says|Run whatever command and value are saved to the random.txt stored in the commands directory.
+do-what-it-says|-|-|node liri do-what-it-says|Run whatever command and value are saved to the random.txt file.
 
 You can also run via npm scripts.
 
 `npm run [spotify, artist, movie, do] <value>`
-
-_`--say` currently does not work when run via npm script._
 
 ### API Keys
 
