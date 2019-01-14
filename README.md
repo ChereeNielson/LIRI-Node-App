@@ -25,7 +25,7 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 **Command**|**Value**|**Options**|**Example**|**Description**
 :-----:|:-----:|:-----:|:-----:|:-----:
 spotify|"song title"|-|node liri "Madness"|Display song information from Spotify. The default song is "The Sign" if no value is entered via the command line.
-artist|"band name"|-|node liri "Muse"|Display band information from Bands In Town. The default artist is "Muse" if no value is entered via the command line.
+artist|"band name"|-|node liri "Muse"|Display band information from Bands In Town.
 movie|"movie title"|-|node liri "Fight Club"|Display movie information from OMDB.
 do-what-it-says|-|-|node liri do-what-it-says|Run whatever command and value are saved to the random.txt file.
 
