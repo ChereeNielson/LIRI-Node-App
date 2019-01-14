@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/ChereeNielson/LIRI-Node-App/issues"
   },
-  "homepage": "https://github.com/ChereeNielson/LIRI-Node-App#readme"
+  "homepage": "https://github.com/ChereeNielson/LIRI-Node-App#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.2.0",
+    "moment": "^2.23.0",
+    "node-spotify-api": "^1.0.7"
+  }
 }

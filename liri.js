@@ -1,13 +1,14 @@
 // Read and set any environment variables with the dotenv package //
 // Require the .env file with access tokens //
 require("dotenv").config();
-
+require("axios");
+require("moment");
 
 // ---- SPOTIFY ---- //
 const spotify = require("./commands/spotify");
 
 // ---- BANDS IN TOWN ---- //
-const bands = require("./commands/bands");
+const bit = require("./commands/bit");
 
 // ---- OMDB ---- //
 const omdb = require("./commands/omdb");

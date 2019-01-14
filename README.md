@@ -26,7 +26,7 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 :-----:|:-----:|:-----:|:-----:|:-----:
 spotify|"song title"|-|node liri "Madness"|Display song information from Spotify. The default song is "Madness" if no value is entered via the command line.
 artist|"band name"|-|node liri "Muse"|Display band information from Bands In Town. The default artist is "Muse" if no value is entered via the command line.
-movie|"movie title"|-|node liri "Blade Runner 2049"|Display movie information from OMDB.
+movie|"movie title"|-|node liri "Fight Club"|Display movie information from OMDB.
 do-what-it-says|-|-|node liri do-what-it-says|Run whatever command and value are saved to the random.txt stored in the commands directory.
 
 You can also run via npm scripts.
@@ -52,10 +52,10 @@ Rather than include a `keys.js` file, I used the [dotenv](https://www.npmjs.com/
 Replace XXXXX with the key/secret/token for each service.
 
 ```
-SPOTIFY_CLIENT_ID=XXXXX
-SPOTIFY_CLIENT_SECRET=XXXXX
-BANDS_IN_TOWN_API_KEY=XXXXX
-OMDB_API_KEY=XXXXX
+SPOTIFY_ID=XXXXX
+SPOTIFY_SECRET=XXXXX
+BIT_KEY=XXXXX
+OMDB_KEY=XXXXX
 ```
 `process.env` now has the keys and values defined in the `.env` file
 
