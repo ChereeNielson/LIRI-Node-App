@@ -6,27 +6,9 @@ require("moment");
 // ---- API KEYS ---- //
 let keys = require("./keys.js");
 
+
 // ---- SPOTIFY ---- //
 const spotify = require("node-spotify-api");
-
-// ---- BANDS IN TOWN ---- //
-let bit = keys.bit
-
-// ---- OMDB ---- //
-let omdb = keys.omdb
-
-// ---- DO WHAT IS SAYS ---- //
-const doWhatItSays = require("./commands/do-what-it-says");
-
-// ---- HELP INFO ---- //
-const help = require("./commands/help");
-
-
-console.log(keys);
-console.log(spotify);
-console.log(bit);
-console.log(omdb);
-
 
 // Create a New Spotify Object //
 let spotify = new Spotify({
@@ -42,12 +24,42 @@ let searchSettings = {
 }
 
 
+
+// ---- BANDS IN TOWN ---- //
+let bit = keys.bit
+
+
+
+// ---- OMDB ---- //
+let omdb = keys.omdb
+
 // Set Default Values for the OMDB Requests //
 let omdb = {
 	base: "http://www.omdbapi.com/?apikey=${process.env.OMDB_KEY}",
 	type: "movie",
-	t: "Fight Club"
+	t: "Mr. Nobody"
 }
+
+
+
+
+// ---- DO WHAT IS SAYS ---- //
+const doWhatItSays = require("./commands/do-what-it-says");
+
+// ---- HELP INFO ---- //
+const help = require("./commands/help");
+
+
+console.log(keys);
+console.log(spotify);
+console.log(bit);
+console.log(omdb);
+
+
+
+
+
+
 
 
 
