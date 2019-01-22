@@ -72,9 +72,19 @@ This project was uploaded to NPM under the package name `liri-cli`. Though I hop
 
 Install: `npm i liri-cli`
 
-## SPOTIFY
+### SPOTIFY
 <p align="center">
 <img align="center" src="/SPOTIFY.gif" width="100%"/>
+</p>
+
+### BANDS IN TOWN
+<p align="center">
+<img align="center" src="/BIT.gif" width="100%"/>
+</p>
+
+### OMDB
+<p align="center">
+<img align="center" src="/OMDB.gif" width="100%"/>
 </p>
 
 ### Resources 
