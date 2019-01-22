@@ -77,10 +77,10 @@ function searchSpotify(search) {
             return console.log("Error occurred: " + err);
         }
         let response = data.tracks.items[0];
-        console.log(response.artists[0].name);
-        console.log(response.name);
-        console.log(response.preview_url);
-        console.log(response.album.name);
+        console.log("Artist: " + response.artists[0].name);
+        console.log("Song Name: " + response.name);
+        console.log("URL: " + response.preview_url);
+        console.log("Album: " + response.album.name);
     });
 }
 

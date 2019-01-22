@@ -72,6 +72,11 @@ This project was uploaded to NPM under the package name `liri-cli`. Though I hop
 
 Install: `npm i liri-cli`
 
+## SPOTIFY
+<p align="center">
+<img align="center" src="/SPOTIFY.gif" width="100%"/>
+</p>
+
 ### Resources 
 
 [MDN: Number.prototype.toLocaleString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString)
